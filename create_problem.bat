@@ -1,14 +1,19 @@
 @echo off
 setlocal
 
-REM Check if problem name is provided
+REM Check if both topic and problem name are provided
 if "%~1"=="" (
-    echo Usage: %0 ^<problem-name^>
+    echo Usage: %0 ^<topic^> ^<problem-name^>
+    exit /b 1
+)
+if "%~2"=="" (
+    echo Usage: %0 ^<topic^> ^<problem-name^>
     exit /b 1
 )
 
-set PROBLEM_NAME=%~1
-set BASE_DIR=Problems\%PROBLEM_NAME%
+set TOPIC=%~1
+set PROBLEM_NAME=%~2
+set BASE_DIR=Problems\%TOPIC%\%PROBLEM_NAME%
 
 REM Create folder structure
 mkdir "%BASE_DIR%\Solution"
@@ -24,4 +29,4 @@ type nul > "%BASE_DIR%\TestCases\test_case1.txt"
 type nul > "%BASE_DIR%\TestCases\test_case2.txt"
 type nul > "%BASE_DIR%\TestCases\test_case3.txt"
 
-echo Problem "%PROBLEM_NAME%" folder structure created.
+echo Topic "%TOPIC%" and Problem "%PROBLEM_NAME%" folder structure created.
