@@ -13,6 +13,7 @@ The repository is organized into topics and problems:
 
 Each problem is organized as follows:
 
+```
 Problems/
 │
 ├── <Topic>/
@@ -28,27 +29,36 @@ Problems/
 │ │ └── test_case3.txt
 │ └── ...
 └── ...
-
+```
 
 ## How to Contribute
 
 1. **Fork the Repository**: Click the "Fork" button at the top right of this page.
 2. **Clone Your Fork**: Use the following command to clone your forked repository:
-   ```bash
-   git clone https://github.com/your-username/DSA-Sheet.git```
+```bash
+git clone https://github.com/your-username/DSA-Sheet.git
+```
 
 3. **Create a New Branch**: Create a new branch for your changes:
-4. ```git checkout -b feature/your-feature```
+```bash
+git checkout -b feature/your-feature
+```
 
-5. **Add Problems**: Follow the folder structure and add your problem statements, solutions, input/output examples, and test cases.
-6. **Commit Your Changes**: Commit your changes with a meaningful message:
-```git add .```
-```git commit -m "Add new problem: <ProblemName> in <Topic>"```
+4. **Add Problems**: Follow the folder structure and add your problem statements, solutions, input/output examples, and test cases.
+5. **Commit Your Changes**: Commit your changes with a meaningful message:
+```bash
+git add .
+```
+```bash
+git commit -m "Add new problem: <ProblemName> in <Topic>"
+```
 
-7. **Push Your Changes**: Push your changes to your fork
-```git push origin feature/your-feature```
+6. **Push Your Changes**: Push your changes to your fork
+```bash
+git push origin feature/your-feature
+```
 
-8. **Create a Pull Request**: Go to the original repository and create a pull request from your fork’s branch.
+7. **Create a Pull Request**: Go to the original repository and create a pull request from your fork’s branch.
 
 ##Getting Started
 ###To get started with the problems in this repository:
