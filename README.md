@@ -6,8 +6,8 @@ Welcome to the **DSA-Sheet** repository! This repository contains a curated coll
 
 The repository is organized into topics and problems:
 
-- **Topics**: High-level categories such as Arrays, Linked Lists, Trees, Graphs, etc.
-- **Problems**: Each topic contains multiple problems, each with a detailed problem statement, solutions, input/output examples, and test cases.
+-   **Topics**: High-level categories such as Arrays, Linked Lists, Trees, Graphs, etc.
+-   **Problems**: Each topic contains multiple problems, each with a detailed problem statement, solutions, input/output examples, and test cases.
 
 ## Folder Structure
 
@@ -35,25 +35,30 @@ Problems/
 
 1. **Fork the Repository**: Click the "Fork" button at the top right of this page.
 2. **Clone Your Fork**: Use the following command to clone your forked repository:
+
 ```bash
 git clone https://github.com/your-username/DSA-Sheet.git
 ```
 
 3. **Create a New Branch**: Create a new branch for your changes:
+
 ```bash
 git checkout -b feature/your-feature
 ```
 
 4. **Add Problems**: Follow the folder structure and add your problem statements, solutions, input/output examples, and test cases.
 5. **Commit Your Changes**: Commit your changes with a meaningful message:
+
 ```bash
 git add .
 ```
+
 ```bash
 git commit -m "Add new problem: <ProblemName> in <Topic>"
 ```
 
 6. **Push Your Changes**: Push your changes to your fork
+
 ```bash
 git push origin feature/your-feature
 ```
@@ -69,16 +74,18 @@ git push origin feature/your-feature
 4. Test your solution using the provided input and output files.
 
 ## Issues and Feedback
+
 If you encounter any issues or have feedback, please open an issue on the GitHub repository or submit a pull request with your proposed changes.
 
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-- Acknowledgments
-- GeeksforGeeks
-- LeetCode
-- HackerRank
-- Codeforces
+-   Acknowledgments
+-   GeeksforGeeks
+-   LeetCode
+-   HackerRank
+-   Codeforces
 
 ### Thank you for visiting the DSA-Sheet repository. Happy coding!
 
+<!-- ./create_problem.bat Array "Left Rotate an array by one place" -->
