@@ -1,4 +1,4 @@
-## Remove Duplicates from Sorted Array
+## Rotate Array
 
 ## Description
 
