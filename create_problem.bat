@@ -24,7 +24,6 @@ REM Create initial files
 type nul > "%BASE_DIR%\problem_statement.md"
 type nul > "%BASE_DIR%\readme.md"
 type nul > "%BASE_DIR%\Solution\NaiveSolution.java"
-type nul > "%BASE_DIR%\Solution\BetterSolution.java"
 type nul > "%BASE_DIR%\Solution\OptimalSolution.java"
 type nul > "%BASE_DIR%\InputOutput\input.txt"
 type nul > "%BASE_DIR%\InputOutput\output.txt"
