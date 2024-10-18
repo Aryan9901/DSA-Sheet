@@ -71,6 +71,20 @@ public class Practice {
         }
     }
 
+    // a^b
+    public static long power(int a, int b, int n) {
+        long res = 1;
+        while (b > 0) {
+            if ((b & 1) != 0) {
+                res = ((res) * (a % n)) % n;
+            }
+            a = ((a % n) * (a % n)) % n;
+            b = b >> 1;
+        }
+
+        return res;
+    }
+
     public static void main(String[] args) {
         Scanner kb = new Scanner(System.in);
         System.out.print("Enter the number: ");
@@ -105,5 +119,12 @@ public class Practice {
         int b = kb.nextInt();
 
         System.out.println("GCD of " + a + " & " + b + " is " + gcd(a, b));
+
+        System.out.print("enter a: ");
+        a = kb.nextInt();
+        System.out.print("enter b: ");
+        b = kb.nextInt();
+
+        System.out.println(a + " to the power " + b + " is " + power(a, b, 1000000007));
     }
 }
