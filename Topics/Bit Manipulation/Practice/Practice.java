@@ -4,8 +4,9 @@
 public class Practice {
 
     public static void main(String[] args) {
-        System.out.println(5 & 4);
-
+        int a = 125;
+        int b = a >> 1;
+        System.out.println(b);
     }
 
 }
