@@ -36,8 +36,8 @@ Explanation:
 There are 5 persons so skipping 2 person i.e 3rd person will be killed. Thus the safe position is 4.
 ```
 
-Expected Time Complexity: O(n).
-Expected Auxiliary Space: O(n).
+- Expected Time Complexity: O(n).
+- Expected Auxiliary Space: O(n).
 
 Constraints
 1 <= n, k <= 20
