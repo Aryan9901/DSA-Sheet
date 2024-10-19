@@ -6,8 +6,8 @@ Welcome to the **DSA-Sheet** repository! This repository contains a curated coll
 
 The repository is organized into topics and problems:
 
--   **Topics**: High-level categories such as Arrays, Linked Lists, Trees, Graphs, etc.
--   **Problems**: Each topic contains multiple problems, each with a detailed problem statement, solutions, input/output examples, and test cases.
+- **Topics**: High-level categories such as Arrays, Linked Lists, Trees, Graphs, etc.
+- **Problems**: Each topic contains multiple problems, each with a detailed problem statement, solutions, input/output examples, and test cases.
 
 ## Folder Structure
 
@@ -80,12 +80,13 @@ If you encounter any issues or have feedback, please open an issue on the GitHub
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
--   Acknowledgments
--   GeeksforGeeks
--   LeetCode
--   HackerRank
--   Codeforces
+- Acknowledgments
+- GeeksforGeeks
+- LeetCode
+- HackerRank
+- Codeforces
 
 ### Thank you for visiting the DSA-Sheet repository. Happy coding!
 
 <!-- ./create_problem.bat Array "Left Rotate an array by one place" -->
+<!-- ./create_practice.bat "Mathematics" -->
