@@ -1,0 +1,6 @@
+/**
+ * NaiveSolution
+ */
+public class NaiveSolution {
+
+}

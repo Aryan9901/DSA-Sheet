@@ -33,6 +33,13 @@ public class Practice {
         return power(a, b - 1, k * a);
     }
 
+    public static int noOfWaysOfNCrossMMatrix(int n, int m) {
+        if (n == 1 || m == 1)
+            return 1;
+        else
+            return noOfWaysOfNCrossMMatrix(n - 1, m) + noOfWaysOfNCrossMMatrix(n, m - 1);
+    }
+
     public static void main(String[] args) {
         Scanner kb = new Scanner(System.in);
         System.out.print("Enter n: ");
@@ -51,6 +58,14 @@ public class Practice {
         int b = kb.nextInt();
 
         System.out.println(a + " to the power " + b + " is " + power(a, b, 1));
+
+        System.out.println("Enter the size of matrix: ");
+        System.out.print("Enter n: ");
+        int x = kb.nextInt();
+        System.out.print("Enter m: ");
+        int y = kb.nextInt();
+
+        System.out.println("No of ways: " + noOfWaysOfNCrossMMatrix(x, y));
     }
 
 }
