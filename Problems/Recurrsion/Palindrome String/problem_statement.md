@@ -8,44 +8,42 @@ Given a string S, check if it is palindrome or not.
 
 ### Example 1
 
-**Input:**
-
 ```bash
+Input:
 S = "abba"
+
 Output:
 true
 
 Explanation:
 S is a palindrome
+```
 
 Example 2
+
+```bash
 Input:
+S = "abc"
 
-
-int[] nums = {2, 1, 3, 4};
 Output:
+true
 
-java
-Copy code
-false
 Explanation:
-There is no sorted array once rotated that can make nums.
+S is a palindrome
+```
 
 Example 3
+
+```bash
 Input:
+S = "abbcda"
 
-java
-Copy code
-int[] nums = {1, 2, 3};
 Output:
+false
 
-java
-Copy code
-true
 Explanation:
-The array [1, 2, 3] is the original sorted array. You can rotate the array by x = 0 positions (i.e., no rotation) to make nums.
+S is not a palindrome
+```
 
 Constraints
-1 <= nums.length <= 100
-1 <= nums[i] <= 100
-```
+1 <= Length of S<= 2\*105
