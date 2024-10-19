@@ -67,5 +67,4 @@ public class Practice {
 
         System.out.println("No of ways: " + noOfWaysOfNCrossMMatrix(x, y));
     }
-
 }
