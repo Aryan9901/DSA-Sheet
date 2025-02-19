@@ -3,7 +3,6 @@ package Topics.Mathematics.Practice;
 import java.util.Scanner;
 import java.util.Arrays;
 
-
 public class Practice {
 
     public static long factorial(int n) {
