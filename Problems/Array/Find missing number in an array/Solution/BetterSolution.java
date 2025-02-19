@@ -1,4 +1,5 @@
 class BetterSolution {
+     
      public int missingNumber(int[] nums) {
          int xor = -1;
          int i =0;
