@@ -1,4 +1,3 @@
-
 public class NaiveSolution {
 
     boolean isPalindrome(String S) {
