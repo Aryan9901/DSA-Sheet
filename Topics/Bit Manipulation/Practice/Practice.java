@@ -1,6 +1,5 @@
 
 public class Practice {
-
     public static void main(String[] args) {
         int a = 125;
         int b = a >> 1;
